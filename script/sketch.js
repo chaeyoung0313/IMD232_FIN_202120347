@@ -42,7 +42,8 @@ function mouseClicked() {
       if (tiles[idx].isMine && tiles[idx].revealed) {
         // 클릭한 타일이 별 모양이면서 이미 드러난 경우
         setTimeout(() => {
-          window.location.href = 'http://127.0.0.1:5501/script/index_2.html'; // 0.5초 후에 새로운 링크로 이동
+          window.location.href =
+            'https://chaeyoung0313.github.io/IMD232_FIN_202120347/script/index_2.html'; // 0.5초 후에 새로운 링크로 이동
         }, 500);
       }
       break;
